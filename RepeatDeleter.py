@@ -58,7 +58,7 @@ class DeleteRepeatImages:
         for image in images:
             img_hash = self.get_hash(image)
             if img_hash == main_hash:
-                image.rename(Path('C:/Users/bolat/Desktop/Client/', image.name))
+                image.rename(Path('C:/Users/Астана11б/Pictures/Client/', image.name))
 
     def test_print_hashes(self):
         images = self.get_imgs_path()
@@ -68,6 +68,7 @@ class DeleteRepeatImages:
 
 
 if __name__ == '__main__':
-    path = Path('C:\\Users\\bolat\\Desktop\\Client\\Болат\\ном 2426 часть 1 (на конец месяца)')
-    img_ = Path('C:/Users/bolat/Desktop/Client/262/повторы/WhatsApp Image 2022-11-21 at 16.02.39.jpeg')
+    path1 = input('Скопируй адрес к папке и вставь сюда: ')
+    path = Path(path1)
+    # img_ = Path('C:/Users/Астана11б/Pictures/Client/262/повторы/WhatsApp Image 2022-11-21 at 16.02.39.jpeg')
     DeleteRepeatImages(path).detecter()
