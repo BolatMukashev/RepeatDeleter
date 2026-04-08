@@ -1,1 +1,1 @@
-env\Scripts\python.exe RepeatDeleter.py
+C:\Users\Astana\Desktop\MyPrograms\RepeatDeleter\.venv\Scripts\python.exe C:\Users\Astana\Desktop\MyPrograms\RepeatDeleter\RepeatDeleter.py
